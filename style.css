@@ -1,0 +1,14 @@
+html, body, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px */
+}
+.parent{
+    font-size: 100px;
+    display: flex;
+   justify-content: space-around;
+}
+.size{
+    width: 20%;
+}
