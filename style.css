@@ -3,7 +3,7 @@ html, body, *{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%; /* 10px */
-    background-color: #3b8bea;
+  background-color: lightpink;
 }
 .parent{
     font-size: 10rem;
@@ -15,11 +15,10 @@ html, body, *{
 .box-size{
     width: auto;
     height: auto;
-    border: 10px solid
-    
-
+    border: 10px solid;
 }
 h1{
     color: #c3dbf5;
     margin: 2rem;
+    font-size: 20rem;
 }
