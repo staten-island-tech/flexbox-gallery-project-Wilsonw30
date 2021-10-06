@@ -21,7 +21,8 @@ html, body, *{
     border-radius: 4rem;
 }
 h1{
-    color: #c3dbf5;
+    color: royalblue;
     margin: 2rem;
     font-size: 20rem;
+    text-align: center;
 }   
