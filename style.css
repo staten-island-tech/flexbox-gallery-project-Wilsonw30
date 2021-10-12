@@ -6,7 +6,14 @@ html, body, *{
 }
 body{
      background-color: lightpink;
-}
+    }
+  h1{
+    color: royalblue;
+    margin: 2rem;
+    font-size: 20rem;
+    text-align: center;
+}   
+
 .parent{
     font-size: 10rem;
     display: flex;
@@ -43,9 +50,6 @@ body{
     transition: all 0.3s ease-in-out;
 
 }
-h1{
-    color: royalblue;
-    margin: 2rem;
-    font-size: 20rem;
-    text-align: center;
-}   
+#square3:hover .box-size:not(:hover){
+    transform:scale(0.01)
+}
