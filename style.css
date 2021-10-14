@@ -29,11 +29,19 @@ body{
     box-shadow: 1rem 0.5rem royalblue;
     border-radius: 4rem;
 
-    background-color: black;
+    background-color:rgb(158, 64, 64);
+}
+#square10{
+    transform: translate(0,-25rem); 
+    text-align: center;
+    height: 100px;
+    position:rel
+
 }
 #square1:hover{
     transform: scale(1.05);
     box-shadow: 1rem 0.5rem red;
+    z-index: 100;
 }
 #square2:hover{
     display: inline-block;
@@ -46,10 +54,13 @@ body{
     transition-property: transform;
     transition-timing-function: ease-out;
 }
+#square3:hover{
+    transform: scaleY(2) scalex(2);
+}
+ 
+#square4
+
 .box-size{
     transition: all 0.3s ease-in-out;
 
-}
-#square3:hover .box-size:not(:hover){
-    transform:scale(0.01)
 }
