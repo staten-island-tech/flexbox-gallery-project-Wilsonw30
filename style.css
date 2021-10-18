@@ -20,16 +20,16 @@ body{
    justify-content: space-around;
    margin-bottom: 1rem;
    margin-left: 1rem auto;
+
 }
 .box-size{
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
     border: 1rem solid;
     margin: 5rem;
     box-shadow: 1rem 0.5rem rgba(65, 105, 225, 0.7) ;
     box-shadow: ;
     border-radius: 4rem;
-
     background-color:rgb(158, 64, 64);
 }
 
@@ -65,4 +65,11 @@ transform: sca;
 }
 #square5:hover{
     transform: translate(5rem,5rem);
+}
+@media (max-width:80rem){
+   .box-size{
+width: 50rem;
+height: 50rem;
+
+    }
 }
