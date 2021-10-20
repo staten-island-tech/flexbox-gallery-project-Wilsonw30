@@ -67,15 +67,24 @@ transform: sca;
 #square5:hover{
     transform: translate(5rem,5rem);
 }
+
+}
+@media (max-width:70rem){
+    .box-size{
+        width: 40rem;
+        height: 10rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+}
 @media (max-width:80rem){
    .box-size{
-width: 30rem;
-height: 30rem;
+width: 25rem;
+height: 25rem;
 
     }
     h1{
-        font-size: 15rem;
-    }
+        font-size: 12rem;
     }
 }
-@media (max-width:80rem)
