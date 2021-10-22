@@ -11,7 +11,8 @@ body{
     color: royalblue;
     margin: 2rem;
     font-size: 30rem;
-    text-align: center;
+    text-align: center; 
+    animation: test 5s infinite;
 }   
 
 .parent{
@@ -21,6 +22,7 @@ body{
    justify-content: space-around;
    margin-bottom: 1rem;
    margin-left: 1rem auto;
+  
 
 }
 .box-size{
@@ -85,4 +87,22 @@ height: 25rem;
     h1{
         font-size: 10rem;
     }
+}
+@keyframes test {
+    0% {
+        color: red;
+    }
+    
+    25%{
+        color: blue;
+        transform: scale(1.2);
+    }
+
+    50%{
+        color: green;
+    }
+    75%{
+        color: yellow;
+    }
+
 }
