@@ -26,6 +26,11 @@ body{
 
 }
 .box-size{
+    width: 60%;
+    height: 60%;
+
+}
+.card{
     width: 20%;
     height: 20%;
     border: 1rem solid;
@@ -34,9 +39,10 @@ body{
     box-shadow: ;
     border-radius: 4rem;
     background-color:rgb(158, 64, 64);
+    text-align: center;
 }
 
-#square1:hover{
+.card:hover{
     transform: scale(1.05);
     box-shadow: 1rem 0.5rem red;
 }
