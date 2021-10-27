@@ -30,14 +30,14 @@ body{
 }
 .box-size{
     width: 60%;
-    height: 10%;
+    height: 60%;
 }
 #card-image{
  max-width: fit-content;
 }
 .card{
     width: 20%;
-    height: 20%;
+    height: 30rem%;
     border: 1rem solid;
     margin: 5rem;
     box-shadow: 1rem 0.5rem rgba(65, 105, 225, 0.7) ;
@@ -50,8 +50,9 @@ body{
 .card:hover{
     transform: scale(1.05);
     box-shadow: 1rem 0.5rem red;
+    transition: all 0.3s ease-in-out;
 }
-#square2:hover{
+#text:hover{
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
@@ -83,16 +84,21 @@ body{
    .card{
 width: 25rem;
 height: 25rem;
+font-size: 5rem;
 
     }
     h1{
-        font-size: 20rem;
+        font-size: 15rem;
     }
 }
 @media (max-width:40rem){
-    ..card{
+    .card{
         width: 30rem;
         height: 30rem;
+    }
+    .box-size{
+        width: 70%;
+        height: 70%;
     }
     h1{
         font-size: 10rem;
