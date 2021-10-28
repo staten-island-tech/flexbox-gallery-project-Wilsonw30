@@ -45,23 +45,16 @@ body{
     background-color:rgb(158, 64, 64);
     text-align: center;
     font-size: 10rem;
-}
-
-.card:hover{
-    transform: scale(1.05);
-    box-shadow: 1rem 0.5rem red;
     transition: all 0.3s ease-in-out;
 }
-#text:hover{
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 5rem 0.5rem rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
+
+#square1:hover{
+    transform: scale(1.05);
+    box-shadow: 1rem 0.5rem red;
+}
+#square2:hover{
+    transform: translate(-5rem,-5rem);
+    box-shadow: 1rem 0.5rem white;
 }
 #square3:hover{
     transform: scaleY(2) scalex(2);
